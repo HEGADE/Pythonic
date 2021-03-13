@@ -13,6 +13,7 @@ def drinkWaterremainder():
             message="Sir You Need to Take rest, and you should drink some water this is good for your health",
             timeout=10
             )
+            speak.speak("I am your Big Fan sir.")
             speak.speak("chatur intelligence is online")
             go="Sir You Need to Take rest,and you should drink some water this is good for your health"
             speak.speak(go)
