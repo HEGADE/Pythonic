@@ -13,7 +13,7 @@ while True:
 
         
     if temp<tlen:
-        sir=f'sir we have received file successfully'
+        sir=f'Sir, we have received your file successfully'
         print('is greatest')
         temp=len(files)
         notification.notify(title="Received successfully",
@@ -25,7 +25,7 @@ while True:
         speak.speak(go)
     elif temp>tlen:
         temp=len(files)
-        print('kammi ede')
+        print('kammi ede marre')
     
     else:
         pass
